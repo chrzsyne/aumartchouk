@@ -19,6 +19,7 @@ export default function Home() {
                   height={200}
                   className="rounded-full border-4 border-blue-500 dark:border-blue-400"
                   priority
+                  unoptimized
                 />
               </div>
               <div className="flex-1 text-center md:text-left">
