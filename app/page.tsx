@@ -246,6 +246,17 @@ export default function Home() {
                 Comparative analysis of Western and emerging economies' structural advantages and long-term growth dynamics 
                 (Master's level coursework, Université Masaryk)
               </p>
+              <a
+                href="https://drive.google.com/file/d/1Vrb6059ej5OfVNHA5RNN-Sv_nbEGFeMw/view"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
+              >
+                View Research Paper
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
