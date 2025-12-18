@@ -16,9 +16,9 @@ export default function Home() {
                   src="https://lh3.googleusercontent.com/d/1-qnv0-pf3xPUUM2a5Lbr3PNEVV5jSIJp"
                   alt="Aurèle Martchouk"
                   width={193}
-                  height={242}
-                  className="rounded-lg border-4 border-blue-500 dark:border-blue-400"
-                  style={{ width: '51mm', height: '64mm' }}
+                  height={193}
+                  className="rounded-full border-4 border-blue-500 dark:border-blue-400"
+                  style={{ width: '51mm', height: '51mm' }}
                   priority
                   unoptimized
                 />
