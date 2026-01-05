@@ -1,6 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -54,10 +55,10 @@ export default function Header() {
                 Education
               </button>
               <button
-                onClick={() => scrollToSection('research')}
+                onClick={() => scrollToSection('experience')}
                 className="text-zinc-300 hover:text-white transition-colors"
               >
-                Research
+                Experience
               </button>
               <button
                 onClick={() => scrollToSection('projects')}
@@ -78,6 +79,7 @@ export default function Header() {
                 Contact
               </button>
             </div>
+            <ThemeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden text-white p-2"
@@ -110,10 +112,10 @@ export default function Header() {
                 Education
               </button>
               <button
-                onClick={() => scrollToSection('research')}
+                onClick={() => scrollToSection('experience')}
                 className="text-zinc-300 hover:text-white transition-colors text-left"
               >
-                Research
+                Experience
               </button>
               <button
                 onClick={() => scrollToSection('projects')}

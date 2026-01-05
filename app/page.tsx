@@ -15,15 +15,17 @@ export default function Home() {
                 <Image
                   src="https://lh3.googleusercontent.com/d/1-qnv0-pf3xPUUM2a5Lbr3PNEVV5jSIJp"
                   alt="Aurèle Martchouk"
-                  width={200}
-                  height={200}
+                  width={193}
+                  height={193}
                   className="rounded-full border-4 border-blue-500 dark:border-blue-400"
+                  style={{ width: '51mm', height: '51mm' }}
                   priority
+                  unoptimized
                 />
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h1 className="text-5xl md:text-6xl font-bold mb-4 text-zinc-900 dark:text-white">
-                  Aurèle Martchouk
+                  Aurèle MARTCHOUK
                 </h1>
                 <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 mb-6">
                   Aspiring Financial/Economic Analyst | Data-Driven Financial Strategy
@@ -84,6 +86,25 @@ export default function Home() {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
+                    Massachusetts Institute of Technology MITx
+                  </h3>
+                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
+                    MicroMasters Finance
+                  </p>
+                </div>
+                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                  October 2025 - October 2026
+                </span>
+              </div>
+              <p className="text-zinc-600 dark:text-zinc-400">
+                EdX, Online · Equivalent to one full semester of MIT graduate coursework
+              </p>
+            </div>
+
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-green-500">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
+                <div>
+                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
                     Sciences Po Paris
                   </h3>
                   <p className="text-lg text-zinc-700 dark:text-zinc-300">
@@ -91,26 +112,28 @@ export default function Home() {
                   </p>
                 </div>
                 <span className="text-zinc-600 dark:text-zinc-400 font-medium">
-                  September 2019 - 2026
+                  2019 - April 2026
                 </span>
               </div>
               <p className="text-zinc-600 dark:text-zinc-400 mb-3">
-                #4 worldwide for Politics and International Relations (QS Ranking 2025)
+                Paris, France · #11 for Economics department in Europe (RePEc Nov. 2025)
               </p>
               <p className="text-zinc-700 dark:text-zinc-300 mb-3">
-                <strong>GPA:</strong> 14.19/20 (Upper Second to First Class Honours UK / 3.5-3.7 US)
+                <strong>GPA:</strong> 14.2/20 (Equivalent: 3.6 GPA US)
               </p>
               <p className="text-zinc-600 dark:text-zinc-400 mb-3">
-                <strong>Relevant courses:</strong> Initiation aux méthodes quantitatives en sociologie sur R · 
-                Comparative Social Policy in Europe · Core Economics · International Trade and Finance · 
+                <strong>Relevant courses:</strong> Core Economics · International Trade and Finance · 
                 Introduction to Econometrics · Intermediate Microeconomics: information, design and institutions
               </p>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+                2020–2022: Pursued professional opportunities to develop independence and work experience
+              </p>
               <p className="text-zinc-600 dark:text-zinc-400">
-                2020–2022: Pursued professional opportunities (Agriculture, Services) to develop independence and work experience
+                Degree requirement: 4-month international internship to complete studies
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-green-500">
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-purple-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -125,35 +148,18 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-zinc-600 dark:text-zinc-400 mb-3">
-                <strong>Master's level:</strong> Europe in the Global Economy · Labour Market and Employment Policy · 
-                Corporate Finance (with Excel) · Portfolio Theory (with R software)
+                Brno, Czech Republic
               </p>
               <p className="text-zinc-600 dark:text-zinc-400">
-                <strong>Bachelor's level:</strong> History of Economic Thought · Introduction to Population Studies · Labour Economics
+                <strong>Master's level coursework:</strong> Corporate Finance (with Excel) · Portfolio Theory (with R software)
               </p>
-            </div>
-
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-purple-500">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-                <div>
-                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
-                    University of Angers
-                  </h3>
-                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                    2nd year of undergraduate studies in Mathematics
-                  </p>
-                </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
-                  2025 - 2026
-                </span>
-              </div>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-orange-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
-                    University of Paris 1 Panthéon-Sorbonne
+                    Paris 1 Panthéon-Sorbonne
                   </h3>
                   <p className="text-lg text-zinc-700 dark:text-zinc-300">
                     1st year of undergraduate studies in Mathematics
@@ -163,8 +169,11 @@ export default function Home() {
                   2019 - 2020
                 </span>
               </div>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+                Paris, France
+              </p>
               <p className="text-zinc-700 dark:text-zinc-300">
-                <strong>GPA:</strong> 15.6/20 (Upper Second to First Class Honours UK / 3.5-3.7 US)
+                <strong>GPA:</strong> 15.6/20 (Equivalent: 3.6 GPA US)
               </p>
             </div>
 
@@ -186,128 +195,102 @@ export default function Home() {
           </div>
         </Section>
 
-        {/* Research Section */}
-        <Section id="research" title="Advanced Economic Research">
+        {/* Professional Experience Section */}
+        <Section id="experience" title="Professional Experience and Volunteering">
           <div className="space-y-6">
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
-                Research-oriented Capstone Project
-              </h3>
-              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
-                <strong>"France's Capitalized Pension Financing: A Lever for Investment, Economic Growth, and Poverty Reduction"</strong>
-              </p>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                <div>
+                  <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+                    Independent Data Analysis for Finance Projects
+                  </h3>
+                </div>
+                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                  November - December 2025
+                </span>
+              </div>
               <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Hybrid pension reform combining pay-as-you-go and capitalization to enhance welfare state sustainability, 
-                increase employment and growth potential; grounded in Philippe Aghion's endogenous growth model and financial theory; 
-                addresses poverty reduction through inclusive economic policy.
+                Conducted multiple data analysis for finance projects for my GitHub account and improved skills in R software and finance.
               </p>
-              <a
-                href="https://medium.com/@aurele.martchouk/capstone-project-frances-capitalized-pension-financing-a-lever-for-investment-economic-growth-d26fc4adec17?postPublishedType=initial"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-              >
-                Read on Medium
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
+              <div className="space-y-2 mb-4">
+                <div>
+                  <p className="text-zinc-700 dark:text-zinc-300">
+                    <strong>Tech Survivors Portfolio vs. NASDAQ-100: Long-Term Risk Analysis (1999-2025)</strong>
+                  </p>
+                  <a
+                    href="https://github.com/martchoukaur-byte"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2 text-sm"
+                  >
+                    View on GitHub
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+                <div>
+                  <p className="text-zinc-700 dark:text-zinc-300">
+                    <strong>Portfolio Optimization: 2004 vs 2025 Market Leaders - A 21-Year Comparative Backtest</strong>
+                  </p>
+                  <p className="text-zinc-600 dark:text-zinc-400 text-sm">(with R software)</p>
+                  <a
+                    href="https://github.com/martchoukaur-byte"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2 text-sm"
+                  >
+                    View on GitHub
+                    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                </div>
+              </div>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
-                Econometrics Research
-              </h3>
-              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
-                <strong>"Is there a cause-and-effect relationship between standard of living and fertility?"</strong>
-              </p>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Panel data analysis showing declining correlation over 30 years
-              </p>
-              <a
-                href="https://medium.com/@aurele.martchouk/econometrics-research-paper-c6f5ee6a88ec?postPublishedType=initial"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-              >
-                Read on Medium
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
-                Economic History Research
-              </h3>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Comparative analysis of Western and emerging economies' structural advantages and long-term growth dynamics 
-                (Master's level coursework, Université Masaryk)
-              </p>
-              <a
-                href="https://drive.google.com/file/d/1Vrb6059ej5OfVNHA5RNN-Sv_nbEGFeMw/view"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-              >
-                View Research Paper
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
-            </div>
-
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
-                Volunteering - Les Restos du Coeur - and Social Policy Research
-              </h3>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                <div>
+                  <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+                    Teaching Assistant in French Language
+                  </h3>
+                </div>
+                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                  January - June 2025
+                </span>
+              </div>
               <p className="text-zinc-600 dark:text-zinc-400 mb-3">
-                July-August 2024
+                Brno, Czech Republic
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Conducted research project on the association's social impact and inclusive economic policy design
+              <p className="text-zinc-600 dark:text-zinc-400">
+                Teaching Assistant in French Language at the Faculty of Economics and Administration in Masaryk University in Brno, Czech Republic. In parallel of Erasmus exchange semester.
               </p>
-              <a
-                href="https://drive.google.com/file/d/1Vrb6059ej5OfVNHA5RNN-Sv_nbEGFeMw/view"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-              >
-                View Research Paper
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
-              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
-                Book Review & Critical Analysis
-              </h3>
-              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
-                <strong>"Inequality: What Can Be Done?" by Anthony B. Atkinson</strong>
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
+                <div>
+                  <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
+                    Volunteering and Social Policy Research
+                  </h3>
+                </div>
+                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                  July - August 2024
+                </span>
+              </div>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+                Rambouillet, France
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
-                Sciences Po Paris
+              <p className="text-zinc-600 dark:text-zinc-400">
+                Participated in the association's work. Conducted a research project on the association's social impact ("Les Restos du Coeur") and how to make economic policies more inclusive.
               </p>
-              <a
-                href="https://medium.com/@aurele.martchouk/book-review-critical-analysis-inequality-what-can-be-done-by-anthony-b-atkinson-77b7335286fd"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
-              >
-                Read on Medium
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
-              </a>
             </div>
           </div>
         </Section>
 
         {/* Projects Section */}
-        <Section id="projects" title="Personal Quantitative Financial Analysis Projects">
+        <Section id="projects" title="Economic and Finance Projects">
           <div className="space-y-6">
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
@@ -348,52 +331,81 @@ export default function Home() {
                 </svg>
               </a>
             </div>
+
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+              <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
+                Research-Oriented Capstone Project
+              </h3>
+              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
+                <strong>"The financing of a pension system branch by capitalization in France: a lever for investment, economic growth and poverty reduction"</strong>
+              </p>
+              <p className="text-zinc-600 dark:text-zinc-400">
+                For my bachelor's degree, completion in March 2025
+              </p>
+            </div>
           </div>
         </Section>
 
         {/* Skills Section */}
         <Section id="skills" title="Languages and Skills">
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="space-y-6">
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
               <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Languages</h3>
+              <div className="space-y-2">
+                <p className="text-zinc-700 dark:text-zinc-300">
+                  Native French · Fluent English (C1) · German (A2 - Goethe Certificate) · Czech (Beginner)
+                </p>
+              </div>
+            </div>
+
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Finance</h3>
+              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+                <strong>Financial Risk Manager (FRM) I Candidate</strong> - Global Association of Risk Professionals (GARP)
+              </p>
+              <div className="space-y-2 text-zinc-700 dark:text-zinc-300">
+                <p>• Financial Modeling & Valuation (DCF, Comparables, etc.)</p>
+                <p>• Investment & Portfolio Management (CAPM, Backtesting, etc.)</p>
+                <p>• Corporate Finance (Financial Statements, WACC, etc.)</p>
+                <p>• Market Expertise (Macro, CEE Markets, etc.)</p>
+                <p>• Risk Management (Building)</p>
+              </div>
+            </div>
+
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Data Analysis & Programming</h3>
               <div className="space-y-3">
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-zinc-700 dark:text-zinc-300">French</span>
-                    <span className="text-zinc-600 dark:text-zinc-400">Native</span>
-                  </div>
+                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Advanced Proficiency:</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">R, Excel, Statistical Analysis, etc.</p>
                 </div>
                 <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-zinc-700 dark:text-zinc-300">English</span>
-                    <span className="text-zinc-600 dark:text-zinc-400">C1 (Fluent)</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-zinc-700 dark:text-zinc-300">German</span>
-                    <span className="text-zinc-600 dark:text-zinc-400">A2 (Goethe Certificate)</span>
-                  </div>
-                </div>
-                <div>
-                  <div className="flex justify-between mb-1">
-                    <span className="text-zinc-700 dark:text-zinc-300">Czech</span>
-                    <span className="text-zinc-600 dark:text-zinc-400">Beginner</span>
-                  </div>
+                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Currently Building:</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">Python, SQL, Power BI, Tableau, Predictive Analytics, ML</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
-              <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Technical Skills</h3>
-              <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm">Advanced Excel</span>
-                <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm">SQL (Intermediate)</span>
-                <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm">Python</span>
-                <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm">R (Advanced)</span>
-                <span className="px-3 py-1 bg-blue-600 text-white rounded-full text-sm">Power BI (Beginner)</span>
+              <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Soft Skills</h3>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Core Competencies:</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">Analytical Thinking, Problem-Solving</p>
+                </div>
+                <div>
+                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Developing:</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">Communication, Presentation, Leadership</p>
+                </div>
+                <div>
+                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Research & Writing:</p>
+                  <p className="text-zinc-600 dark:text-zinc-400">Financial Research, Technical Writing, Published Articles</p>
+                </div>
               </div>
-              <h4 className="text-lg font-semibold mb-2 text-zinc-900 dark:text-white mt-6">Certifications</h4>
+            </div>
+
+            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
+              <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Certifications and Training</h3>
               <ul className="space-y-2 text-zinc-600 dark:text-zinc-400">
                 <li>• Professional Certificate in Corporate Finance from Columbia University (edX)</li>
                 <li>• Bloomberg Market Concepts Certificate</li>
@@ -403,23 +415,26 @@ export default function Home() {
         </Section>
 
         {/* Interests Section */}
-        <Section id="about" title="Interests and Motivation">
+        <Section id="about" title="Interest and Motivation">
           <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
             <p className="text-zinc-700 dark:text-zinc-300 mb-4">
               <strong>Economics & Social Theory:</strong> Passionate about Innovation Economics (Schumpeterian Growth, Philippe Aghion) 
               and Social Dynamics (Demography, Sociology of Education, Inequalities & Social Mobility). Financial markets.
             </p>
-            <p className="text-zinc-700 dark:text-zinc-300">
+            <p className="text-zinc-700 dark:text-zinc-300 mb-4">
               <strong>Research:</strong> Developing "Central Eastern European Investment Insights" on Medium—analyzing macroeconomic trends 
               and investment dynamics in Central/Eastern Europe
+            </p>
+            <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+              Fascinated by economics, finance and business. I am always eager to learn more.
             </p>
             <a
               href="https://medium.com/@central_european_invest"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2 mt-4"
+              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
             >
-              View Research Blog
+              View Research Blog on Medium
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
