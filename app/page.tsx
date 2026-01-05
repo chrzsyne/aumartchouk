@@ -13,21 +13,21 @@ export default function Home() {
           <div className="container mx-auto px-6 py-12">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-shrink-0">
-                <Image
+        <Image
                   src="https://lh3.googleusercontent.com/d/1-qnv0-pf3xPUUM2a5Lbr3PNEVV5jSIJp"
                   alt="Aurèle Martchouk"
                   width={193}
                   height={242}
                   className="rounded-lg border-4 border-blue-500 dark:border-blue-400"
                   style={{ width: '51mm', height: '64mm' }}
-                  priority
+          priority
                   unoptimized
                 />
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h1 className="text-5xl md:text-6xl font-bold mb-4 text-zinc-900 dark:text-white">
                   Aurèle Martchouk
-                </h1>
+          </h1>
                 <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 mb-6">
                   Aspiring Financial/Economic Analyst | Data-Driven Financial Strategy
                 </p>
@@ -438,6 +438,12 @@ export default function Home() {
                 <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
                 </svg>
+                <p className="text-zinc-900 dark:text-white">Financial Risk Manager (FRM) I Candidate - Global Association of Risk Professionals (GARP)</p>
+              </div>
+              <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
+                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                </svg>
                 <p className="text-zinc-900 dark:text-white">Professional Certificate in Corporate Finance from Columbia University (edX)</p>
               </div>
               <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
@@ -445,12 +451,6 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
                 </svg>
                 <p className="text-zinc-900 dark:text-white">Bloomberg Market Concepts Certificate</p>
-              </div>
-              <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
-                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
-                </svg>
-                <p className="text-zinc-900 dark:text-white">Financial Risk Manager (FRM) I Candidate - Global Association of Risk Professionals (GARP)</p>
               </div>
             </div>
           </div>
@@ -480,8 +480,8 @@ export default function Home() {
             </a>
             <p className="text-zinc-700 dark:text-white mb-4">
               Fascinated by economics, finance and business. I am always eager to learn more.
-            </p>
-          </div>
+          </p>
+        </div>
         </Section>
 
         {/* Contact Section */}
@@ -529,8 +529,8 @@ export default function Home() {
                   <h3 className="text-xl font-semibold mb-2 text-zinc-900 dark:text-white">LinkedIn</h3>
                   <a
                     href="https://www.linkedin.com/in/aur%C3%A8le-martchouk-770346190/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
                   >
                     Connect with me
@@ -547,13 +547,13 @@ export default function Home() {
                   <h3 className="text-xl font-semibold mb-2 text-zinc-900 dark:text-white">GitHub</h3>
                   <a
                     href="https://github.com/martchoukaur-byte"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            target="_blank"
+            rel="noopener noreferrer"
                     className="text-blue-600 dark:text-blue-400 hover:underline"
-                  >
+          >
                     View my projects
-                  </a>
-                </div>
+          </a>
+        </div>
 
                 {/* Location Column */}
                 <div className="flex flex-col items-center">
