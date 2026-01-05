@@ -9,8 +9,8 @@ export default function Home() {
       <Header />
       <main className="min-h-screen bg-white dark:bg-[#1a202c] text-zinc-800 dark:text-white">
         {/* Home/About Section */}
-        <section id="home" className="min-h-screen flex items-center justify-center pt-20 scroll-mt-20">
-          <div className="container mx-auto px-6 py-20">
+        <section id="home" className="pt-20 pb-12 scroll-mt-20">
+          <div className="container mx-auto px-6 py-12">
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="flex-shrink-0">
                 <Image
