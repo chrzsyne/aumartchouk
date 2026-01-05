@@ -491,9 +491,6 @@ export default function Home() {
               Let's Work Together
             </h2>
             <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-8 text-center">
-              <p className="text-xl text-zinc-700 dark:text-white mb-8">
-                Ready to drive your next financial transformation initiative? Let's connect and discuss how I can help your organization achieve its goals.
-              </p>
               <div className="flex flex-wrap justify-center gap-4 mb-12">
                 <a
                   href="mailto:aurele.martchouk@sciencespo.fr"
