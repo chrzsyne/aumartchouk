@@ -25,7 +25,7 @@ export default function Home() {
               </div>
               <div className="flex-1 text-center md:text-left">
                 <h1 className="text-5xl md:text-6xl font-bold mb-4 text-zinc-900 dark:text-white">
-                  Aurèle MARTCHOUK
+                  Aurèle Martchouk
                 </h1>
                 <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 mb-6">
                   Aspiring Financial/Economic Analyst | Data-Driven Financial Strategy
