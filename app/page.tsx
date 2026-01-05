@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-100">
+      <main className="min-h-screen bg-white dark:bg-[#1a202c] text-zinc-800 dark:text-white">
         {/* Home/About Section */}
         <section id="home" className="min-h-screen flex items-center justify-center pt-20 scroll-mt-20">
           <div className="container mx-auto px-6 py-20">
@@ -28,10 +28,10 @@ export default function Home() {
                 <h1 className="text-5xl md:text-6xl font-bold mb-4 text-zinc-900 dark:text-white">
                   Aurèle Martchouk
                 </h1>
-                <p className="text-xl md:text-2xl text-zinc-600 dark:text-zinc-400 mb-6">
+                <p className="text-xl md:text-2xl text-blue-600 dark:text-blue-400 mb-6">
                   Aspiring Financial/Economic Analyst | Data-Driven Financial Strategy
                 </p>
-                <p className="text-lg text-zinc-700 dark:text-zinc-300 mb-8 max-w-2xl">
+                <p className="text-lg text-zinc-700 dark:text-white mb-8 max-w-2xl">
                   Passionate about turning complex economic and market data into clear, investment-ready insights, 
                   with hands-on experience in financial modeling, econometrics, and portfolio analytics using R, Python, and SQL
                 </p>
@@ -83,7 +83,7 @@ export default function Home() {
         {/* Education Section */}
         <Section id="education" title="Education">
           <div className="space-y-8">
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 border-l-4 border-blue-500">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 border-l-4 border-blue-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -93,11 +93,11 @@ export default function Home() {
                     MicroMasters Finance
                   </p>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   October 2025 - October 2026
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 EdX, Online · Equivalent to one full semester of MIT graduate coursework
               </p>
             </div>
@@ -112,24 +112,24 @@ export default function Home() {
                     Bachelor's degree in Economics and Societies
                   </p>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   2019 - April 2026
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 Paris, France · #11 for Economics department in Europe (RePEc Nov. 2025)
               </p>
-              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
+              <p className="text-zinc-700 dark:text-white mb-3">
                 <strong>GPA:</strong> 14.2/20 (Equivalent: 3.6 GPA US)
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 <strong>Relevant courses:</strong> Core Economics · International Trade and Finance · 
                 Introduction to Econometrics · Intermediate Microeconomics: information, design and institutions
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 2020–2022: Pursued professional opportunities to develop independence and work experience
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 Degree requirement: 4-month international internship to complete studies
               </p>
             </div>
@@ -144,14 +144,14 @@ export default function Home() {
                     Erasmus Exchange Semester
                   </p>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   January 2025 - June 2025
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 Brno, Czech Republic
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 <strong>Master's level coursework:</strong> Corporate Finance (with Excel) · Portfolio Theory (with R software)
               </p>
             </div>
@@ -166,11 +166,11 @@ export default function Home() {
                     1st year of undergraduate studies in Mathematics
                   </p>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   2019 - 2020
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 Paris, France
               </p>
               <p className="text-zinc-700 dark:text-zinc-300">
@@ -183,23 +183,23 @@ export default function Home() {
         {/* Professional Experience Section */}
         <Section id="experience" title="Professional Experience and Volunteering">
           <div className="space-y-6">
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
                     Independent Data Analysis for Finance Projects
                   </h3>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   November - December 2025
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-4">
                 Conducted multiple data analysis for finance projects for my GitHub account and improved skills in R software and finance.
               </p>
               <div className="space-y-2 mb-4">
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300">
+                  <p className="text-zinc-700 dark:text-white">
                     <strong>Tech Survivors Portfolio vs. NASDAQ-100: Long-Term Risk Analysis (1999-2025)</strong>
                   </p>
                   <a
@@ -215,10 +215,10 @@ export default function Home() {
                   </a>
                 </div>
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300">
+                  <p className="text-zinc-700 dark:text-white">
                     <strong>Portfolio Optimization: 2004 vs 2025 Market Leaders - A 21-Year Comparative Backtest</strong>
                   </p>
-                  <p className="text-zinc-600 dark:text-zinc-400 text-sm">(with R software)</p>
+                  <p className="text-zinc-600 dark:text-zinc-300 text-sm">(with R software)</p>
                   <a
                     href="https://github.com/martchoukaur-byte"
                     target="_blank"
@@ -234,40 +234,40 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
                     Teaching Assistant in French Language
                   </h3>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   January - June 2025
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 Brno, Czech Republic
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 Teaching Assistant in French Language at the Faculty of Economics and Administration in Masaryk University in Brno, Czech Republic. In parallel of Erasmus exchange semester.
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
                     Volunteering and Social Policy Research
                   </h3>
                 </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
+                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
                   July - August 2024
                 </span>
               </div>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 Rambouillet, France
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 Participated in the association's work. Conducted a research project on the association's social impact ("Les Restos du Coeur") and how to make economic policies more inclusive.
               </p>
             </div>
@@ -277,11 +277,11 @@ export default function Home() {
         {/* Projects Section */}
         <Section id="projects" title="Economic and Finance Projects">
           <div className="space-y-6">
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Corporate Valuation & Financial Analysis: EssilorLuxottica Case Study
               </h3>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-4">
                 Built DCF valuation model with DuPont and Kralicek analyses · Applied FCFF methodology and comparable multiples (P/E, P/BV ratios)
               </p>
               <a
@@ -297,11 +297,11 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Portfolio Optimization: 2004 vs 2025 Market Leaders - 21-Year Comparative Backtest
               </h3>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-4">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-4">
                 Backtested portfolio optimization strategies with rolling-window CAPM and Markowitz optimization including transaction costs and inflation adjustment (R software)
               </p>
               <a
@@ -317,14 +317,14 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Research-Oriented Capstone Project
               </h3>
-              <p className="text-zinc-700 dark:text-zinc-300 mb-3">
+              <p className="text-zinc-700 dark:text-white mb-3">
                 <strong>"The financing of a pension system branch by capitalization in France: a lever for investment, economic growth and poverty reduction"</strong>
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 For my bachelor's degree, completion in March 2025
               </p>
             </div>
@@ -345,7 +345,7 @@ export default function Home() {
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
               <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Finance</h3>
-              <p className="text-zinc-600 dark:text-zinc-400 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
                 <strong>Financial Risk Manager (FRM) I Candidate</strong> - Global Association of Risk Professionals (GARP)
               </p>
               <div className="space-y-2 text-zinc-700 dark:text-zinc-300">
@@ -361,12 +361,12 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Data Analysis & Programming</h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Advanced Proficiency:</p>
-                  <p className="text-zinc-600 dark:text-zinc-400">R, Excel, Statistical Analysis, etc.</p>
+                  <p className="text-zinc-700 dark:text-white font-semibold mb-2">Advanced Proficiency:</p>
+                  <p className="text-zinc-600 dark:text-zinc-300">R, Excel, Statistical Analysis, etc.</p>
                 </div>
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Currently Building:</p>
-                  <p className="text-zinc-600 dark:text-zinc-400">Python, SQL, Power BI, Tableau, Predictive Analytics, ML</p>
+                  <p className="text-zinc-700 dark:text-white font-semibold mb-2">Currently Building:</p>
+                  <p className="text-zinc-600 dark:text-zinc-300">Python, SQL, Power BI, Tableau, Predictive Analytics, ML</p>
                 </div>
               </div>
             </div>
@@ -375,23 +375,23 @@ export default function Home() {
               <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Soft Skills</h3>
               <div className="space-y-3">
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Core Competencies:</p>
-                  <p className="text-zinc-600 dark:text-zinc-400">Analytical Thinking, Problem-Solving</p>
+                  <p className="text-zinc-700 dark:text-white font-semibold mb-2">Core Competencies:</p>
+                  <p className="text-zinc-600 dark:text-zinc-300">Analytical Thinking, Problem-Solving</p>
                 </div>
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Developing:</p>
-                  <p className="text-zinc-600 dark:text-zinc-400">Communication, Presentation, Leadership</p>
+                  <p className="text-zinc-700 dark:text-white font-semibold mb-2">Developing:</p>
+                  <p className="text-zinc-600 dark:text-zinc-300">Communication, Presentation, Leadership</p>
                 </div>
                 <div>
-                  <p className="text-zinc-700 dark:text-zinc-300 font-semibold mb-2">Research & Writing:</p>
-                  <p className="text-zinc-600 dark:text-zinc-400">Financial Research, Technical Writing, Published Articles</p>
+                  <p className="text-zinc-700 dark:text-white font-semibold mb-2">Research & Writing:</p>
+                  <p className="text-zinc-600 dark:text-zinc-300">Financial Research, Technical Writing, Published Articles</p>
                 </div>
               </div>
             </div>
 
             <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
               <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Certifications and Training</h3>
-              <ul className="space-y-2 text-zinc-600 dark:text-zinc-400">
+              <ul className="space-y-2 text-zinc-600 dark:text-zinc-300">
                 <li>• Professional Certificate in Corporate Finance from Columbia University (edX)</li>
                 <li>• Bloomberg Market Concepts Certificate</li>
               </ul>
@@ -402,15 +402,15 @@ export default function Home() {
         {/* Interests Section */}
         <Section id="about" title="Interest and Motivation">
           <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
-            <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+            <p className="text-zinc-700 dark:text-white mb-4">
               <strong>Economics & Social Theory:</strong> Passionate about Innovation Economics (Schumpeterian Growth, Philippe Aghion) 
               and Social Dynamics (Demography, Sociology of Education, Inequalities & Social Mobility). Financial markets.
             </p>
-            <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+            <p className="text-zinc-700 dark:text-white mb-4">
               <strong>Research:</strong> Developing "Central Eastern European Investment Insights" on Medium—analyzing macroeconomic trends 
               and investment dynamics in Central/Eastern Europe
             </p>
-            <p className="text-zinc-700 dark:text-zinc-300 mb-4">
+            <p className="text-zinc-700 dark:text-white mb-4">
               Fascinated by economics, finance and business. I am always eager to learn more.
             </p>
             <a
@@ -433,8 +433,8 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-12 text-zinc-900 dark:text-white text-center">
               Let's Work Together
             </h2>
-            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-8 text-center">
-            <p className="text-xl text-zinc-700 dark:text-zinc-300 mb-8">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-8 text-center">
+            <p className="text-xl text-zinc-700 dark:text-white mb-8">
               I'm always open to discussing new opportunities, research collaborations, or interesting projects.
             </p>
             <div className="flex flex-wrap justify-center gap-4 mb-8">
@@ -482,10 +482,10 @@ export default function Home() {
               </a>
             </div>
             <div className="mt-8 pt-8 border-t border-zinc-300 dark:border-zinc-700">
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 <strong>Location:</strong> Paris, France
               </p>
-              <p className="text-zinc-600 dark:text-zinc-400">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 <strong>Phone:</strong> +33 6 11 16 72 95
               </p>
             </div>
@@ -494,7 +494,7 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="relative bg-zinc-900 dark:bg-black text-zinc-400 py-8 text-center">
+        <footer className="relative bg-[#1a202c] dark:bg-[#1a202c] text-zinc-300 py-8 text-center">
           <p>&copy; {new Date().getFullYear()} Aurèle Martchouk. All rights reserved.</p>
         </footer>
         <ScrollToTop />
