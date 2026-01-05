@@ -176,22 +176,6 @@ export default function Home() {
                 <strong>GPA:</strong> 15.6/20 (Equivalent: 3.6 GPA US)
               </p>
             </div>
-
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-red-500">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-                <div>
-                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
-                    CFA Institute
-                  </h3>
-                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                    CFA Level I Candidate
-                  </p>
-                </div>
-                <span className="text-zinc-600 dark:text-zinc-400 font-medium">
-                  August 2026
-                </span>
-              </div>
-            </div>
           </div>
         </Section>
 
