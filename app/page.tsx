@@ -424,11 +424,26 @@ export default function Home() {
 
           {/* Certifications */}
           <div className="mt-8">
-            <h3 className="text-2xl font-semibold mb-4 text-zinc-900 dark:text-white">Certifications</h3>
-            <div className="space-y-2 text-zinc-600 dark:text-zinc-300">
-              <p>• Professional Certificate in Corporate Finance from Columbia University (edX)</p>
-              <p>• Bloomberg Market Concepts Certificate</p>
-              <p>• Financial Risk Manager (FRM) I Candidate - Global Association of Risk Professionals (GARP)</p>
+            <h3 className="text-4xl font-bold mb-8 text-zinc-900 dark:text-white">Certifications</h3>
+            <div className="space-y-4">
+              <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
+                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                </svg>
+                <p className="text-zinc-900 dark:text-white">Professional Certificate in Corporate Finance from Columbia University (edX)</p>
+              </div>
+              <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
+                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                </svg>
+                <p className="text-zinc-900 dark:text-white">Bloomberg Market Concepts Certificate</p>
+              </div>
+              <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-4 flex items-center gap-4">
+                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="2">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+                </svg>
+                <p className="text-zinc-900 dark:text-white">Financial Risk Manager (FRM) I Candidate - Global Association of Risk Professionals (GARP)</p>
+              </div>
             </div>
           </div>
         </Section>
