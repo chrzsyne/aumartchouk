@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-white dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200">
+      <main className="min-h-screen bg-white dark:bg-zinc-950 text-zinc-800 dark:text-zinc-100">
         {/* Home/About Section */}
         <section id="home" className="min-h-screen flex items-center justify-center pt-20 scroll-mt-20">
           <div className="container mx-auto px-6 py-20">
@@ -83,7 +83,7 @@ export default function Home() {
         {/* Education Section */}
         <Section id="education" title="Education">
           <div className="space-y-8">
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-blue-500">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 border-l-4 border-blue-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -183,7 +183,7 @@ export default function Home() {
         {/* Professional Experience Section */}
         <Section id="experience" title="Professional Experience and Volunteering">
           <div className="space-y-6">
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
@@ -234,7 +234,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
@@ -253,7 +253,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-3">
                 <div>
                   <h3 className="text-xl font-semibold text-zinc-900 dark:text-white">
@@ -277,7 +277,7 @@ export default function Home() {
         {/* Projects Section */}
         <Section id="projects" title="Economic and Finance Projects">
           <div className="space-y-6">
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Corporate Valuation & Financial Analysis: EssilorLuxottica Case Study
               </h3>
@@ -297,7 +297,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Portfolio Optimization: 2004 vs 2025 Market Leaders - 21-Year Comparative Backtest
               </h3>
@@ -317,7 +317,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-6 hover:shadow-lg transition-shadow">
               <h3 className="text-xl font-semibold mb-3 text-zinc-900 dark:text-white">
                 Research-Oriented Capstone Project
               </h3>
@@ -428,12 +428,12 @@ export default function Home() {
         </Section>
 
         {/* Contact Section */}
-        <section id="contact" className="py-20 scroll-mt-20">
+        <section id="contact" className="py-12 scroll-mt-20">
           <div className="container mx-auto px-6">
             <h2 className="text-4xl font-bold mb-12 text-zinc-900 dark:text-white text-center">
               Let's Work Together
             </h2>
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-8 text-center">
+            <div className="bg-zinc-100 dark:bg-zinc-900 rounded-lg p-8 text-center">
             <p className="text-xl text-zinc-700 dark:text-zinc-300 mb-8">
               I'm always open to discussing new opportunities, research collaborations, or interesting projects.
             </p>
