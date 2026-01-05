@@ -1,7 +1,6 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import ThemeToggle from './ThemeToggle';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -79,7 +78,6 @@ export default function Header() {
                 Contact
               </button>
             </div>
-            <ThemeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               className="md:hidden text-white p-2"
