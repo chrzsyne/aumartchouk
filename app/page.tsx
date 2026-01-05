@@ -324,9 +324,17 @@ export default function Home() {
               <p className="text-zinc-700 dark:text-white mb-3">
                 <strong>"The financing of a pension system branch by capitalization in France: a lever for investment, economic growth and poverty reduction"</strong>
               </p>
-              <p className="text-zinc-600 dark:text-zinc-300">
-                For my bachelor's degree, completion in March 2025
-              </p>
+              <a
+                href="https://medium.com/@aurele.martchouk/capstone-project-frances-capitalized-pension-financing-a-lever-for-investment-economic-growth-d26fc4adec17?postPublishedType=initial"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
+              >
+                View on Medium
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </div>
           </div>
         </Section>
