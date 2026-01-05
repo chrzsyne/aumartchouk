@@ -37,7 +37,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                   <a
-                    href="https://drive.google.com/file/d/1r89-6DhbusrBLmqAeHWpAPW2Io0G3VeQ/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1yqQMbSL8gnaGh7OjY2UI4auleP-lnPid/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
@@ -457,7 +457,7 @@ export default function Home() {
         </Section>
 
         {/* Interests Section */}
-        <Section id="about" title="Interest and Motivation">
+        <Section id="about" title="Interests and Motivation">
           <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6">
             <p className="text-zinc-700 dark:text-white mb-4">
               <strong>Economics & Social Theory:</strong> Passionate about Innovation Economics (Schumpeterian Growth, Philippe Aghion) 
@@ -465,23 +465,23 @@ export default function Home() {
             </p>
             <p className="text-zinc-700 dark:text-white mb-4">
               <strong>Research:</strong> Developing "Central Eastern European Investment Insights" on Medium—analyzing macroeconomic trends 
-              and investment dynamics in Central/Eastern Europe
+              and investment dynamics in Central/Eastern Europe. 
+              <a
+                href="https://medium.com/@central_european_invest"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-1 ml-1"
+              >
+                [Link to Medium Page]
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
             </p>
-            <a
-              href="https://medium.com/@central_european_invest"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2 mb-4"
-            >
-              View Research Blog on Medium
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-              </svg>
-            </a>
-            <p className="text-zinc-700 dark:text-white mb-4">
-              Fascinated by economics, finance and business. I am always eager to learn more.
-          </p>
-        </div>
+            <p className="text-zinc-700 dark:text-white">
+              <strong>Interests:</strong> I am always eager to learn more about AI and tech. I am also interested in emerging subjects like cybersecurity.
+            </p>
+          </div>
         </Section>
 
         {/* Contact Section */}
@@ -505,7 +505,7 @@ export default function Home() {
                   aurele.martchouk@sciencespo.fr
                 </a>
                 <a
-                  href="https://drive.google.com/file/d/1r89-6DhbusrBLmqAeHWpAPW2Io0G3VeQ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1yqQMbSL8gnaGh7OjY2UI4auleP-lnPid/view?usp=sharing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 border-2 border-blue-600 text-blue-600 dark:border-blue-400 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 rounded-lg font-medium transition-colors inline-flex items-center gap-2"
