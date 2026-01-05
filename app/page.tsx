@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Header from './components/Header';
 import Section from './components/Section';
+import ScrollToTop from './components/ScrollToTop';
 
 export default function Home() {
   return (
@@ -493,9 +494,10 @@ export default function Home() {
         </section>
 
         {/* Footer */}
-        <footer className="bg-zinc-900 dark:bg-black text-zinc-400 py-8 text-center">
+        <footer className="relative bg-zinc-900 dark:bg-black text-zinc-400 py-8 text-center">
           <p>&copy; {new Date().getFullYear()} Aurèle Martchouk. All rights reserved.</p>
         </footer>
+        <ScrollToTop />
       </main>
     </>
   );
