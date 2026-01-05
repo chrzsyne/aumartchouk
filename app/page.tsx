@@ -459,20 +459,20 @@ export default function Home() {
               <strong>Research:</strong> Developing "Central Eastern European Investment Insights" on Medium—analyzing macroeconomic trends 
               and investment dynamics in Central/Eastern Europe
             </p>
-            <p className="text-zinc-700 dark:text-white mb-4">
-              Fascinated by economics, finance and business. I am always eager to learn more.
-            </p>
             <a
               href="https://medium.com/@central_european_invest"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2"
+              className="text-blue-600 dark:text-blue-400 hover:underline inline-flex items-center gap-2 mb-4"
             >
               View Research Blog on Medium
               <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
               </svg>
             </a>
+            <p className="text-zinc-700 dark:text-white mb-4">
+              Fascinated by economics, finance and business. I am always eager to learn more.
+            </p>
           </div>
         </Section>
 
