@@ -32,8 +32,7 @@ export default function Home() {
                   SciencesPo Paris | MMFin MIT Candidate
                 </p>
                 <p className="text-lg text-zinc-700 dark:text-white mb-8 max-w-2xl">
-                  Passionate about turning complex economic and market data into clear, investment-ready insights, 
-                  with hands-on experience in financial modeling, econometrics, and portfolio analytics using R, Python, and SQL
+                  Leveraging rigorous economics training (Sciences Po Paris) and solid technical skills (Finance, Data Analysis), I combine qualitative reasoning with quantitative precision.
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                   <a
