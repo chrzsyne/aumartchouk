@@ -557,8 +557,7 @@ export default function Home() {
                   </div>
                   <h3 className="text-xl font-semibold mb-2 text-zinc-900 dark:text-white">Location</h3>
                   <p className="text-zinc-700 dark:text-white mb-2">Paris, France</p>
-                  <p className="text-zinc-600 dark:text-zinc-300 text-sm">Available for remote work</p>
-                  <p className="text-zinc-600 dark:text-zinc-300 text-sm">Available for full-time employment</p>
+                  <p className="text-zinc-600 dark:text-zinc-300 text-sm">Looking for international opportunities</p>
                 </div>
               </div>
             </div>
