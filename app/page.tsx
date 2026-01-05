@@ -102,7 +102,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-green-500">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 border-l-4 border-green-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -134,7 +134,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-purple-500">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 border-l-4 border-purple-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -156,7 +156,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6 border-l-4 border-orange-500">
+            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 border-l-4 border-orange-500">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
                 <div>
                   <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
@@ -435,7 +435,7 @@ export default function Home() {
 
         {/* Interests Section */}
         <Section id="about" title="Interest and Motivation">
-          <div className="bg-zinc-100 dark:bg-zinc-800 rounded-lg p-6">
+          <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6">
             <p className="text-zinc-700 dark:text-white mb-4">
               <strong>Economics & Social Theory:</strong> Passionate about Innovation Economics (Schumpeterian Growth, Philippe Aghion) 
               and Social Dynamics (Demography, Sociology of Education, Inequalities & Social Mobility). Financial markets.
