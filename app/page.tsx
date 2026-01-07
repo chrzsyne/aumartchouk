@@ -36,7 +36,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-4 justify-center md:justify-start">
                   <a
-                    href="https://drive.google.com/file/d/1yqQMbSL8gnaGh7OjY2UI4auleP-lnPid/view?usp=sharing"
+                    href="https://drive.google.com/file/d/1uy4wEFQxDGK9v68FrTIR_7GVsYYaFrlT/view?usp=sharing"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-lg font-medium transition-colors"
