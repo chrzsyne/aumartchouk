@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://aumartchouk.vercel.app/og",
+        url: "https://aumartchouk.vercel.app/og-image.jpg",
         width: 1200,
         height: 627,
         alt: "Aurèle Martchouk - Economics & Social Policy Researcher | Financial Analyst",
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Aurèle Martchouk | Economics & Social Policy Researcher",
     description: "Economics and Social Policy Researcher specializing in Innovation Economics, Social Dynamics, and Financial Markets.",
-    images: ["https://aumartchouk.vercel.app/og"],
+    images: ["https://aumartchouk.vercel.app/og-image.jpg"],
   },
   robots: {
     index: true,
