@@ -112,7 +112,7 @@ export default function Home() {
                   </p>
                 </div>
                 <span className="text-zinc-600 dark:text-zinc-300 font-medium">
-                  2019 - April 2026
+                  September 2022 - April 2026
                 </span>
               </div>
               <p className="text-zinc-600 dark:text-zinc-300 mb-3">
@@ -121,15 +121,9 @@ export default function Home() {
               <p className="text-zinc-700 dark:text-white mb-3">
                 <strong>GPA:</strong> 14.2/20 (Equivalent: 3.6 GPA US)
               </p>
-              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
+              <p className="text-zinc-600 dark:text-zinc-300">
                 <strong>Relevant courses:</strong> Core Economics · International Trade and Finance · 
                 Introduction to Econometrics · Intermediate Microeconomics: information, design and institutions
-              </p>
-              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
-                2020–2022: Pursued professional opportunities to develop independence and work experience
-              </p>
-              <p className="text-zinc-600 dark:text-zinc-300">
-                Degree requirement: 4-month international internship to complete studies
               </p>
             </div>
 
@@ -155,27 +149,6 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-zinc-100 dark:bg-[#2d3748] rounded-lg p-6 border-l-4 border-orange-500">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-2">
-                <div>
-                  <h3 className="text-2xl font-semibold text-zinc-900 dark:text-white">
-                    Paris 1 Panthéon-Sorbonne
-                  </h3>
-                  <p className="text-lg text-zinc-700 dark:text-zinc-300">
-                    1st year of undergraduate studies in Mathematics
-                  </p>
-                </div>
-                <span className="text-zinc-600 dark:text-zinc-300 font-medium">
-                  2019 - 2020
-                </span>
-              </div>
-              <p className="text-zinc-600 dark:text-zinc-300 mb-3">
-                Paris, France
-              </p>
-              <p className="text-zinc-700 dark:text-zinc-300">
-                <strong>GPA:</strong> 15.6/20 (Equivalent: 3.6 GPA US)
-              </p>
-            </div>
           </div>
         </Section>
 
