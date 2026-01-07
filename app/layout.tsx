@@ -20,13 +20,23 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Aurèle Martchouk | Economics & Social Policy Researcher",
     description: "Economics and Social Policy Researcher specializing in Innovation Economics, Social Dynamics, and Financial Markets.",
+    url: "https://aumartchouk.vercel.app",
     type: "website",
     locale: "en_US",
+    images: [
+      {
+        url: "https://lh3.googleusercontent.com/d/1-qnv0-pf3xPUUM2a5Lbr3PNEVV5jSIJp",
+        width: 1200,
+        height: 627,
+        alt: "Aurèle Martchouk",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aurèle Martchouk | Economics & Social Policy Researcher",
     description: "Economics and Social Policy Researcher specializing in Innovation Economics, Social Dynamics, and Financial Markets.",
+    images: ["https://lh3.googleusercontent.com/d/1-qnv0-pf3xPUUM2a5Lbr3PNEVV5jSIJp"],
   },
   robots: {
     index: true,
