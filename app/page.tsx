@@ -97,7 +97,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="text-zinc-600 dark:text-zinc-300">
-                EdX, Online · Equivalent to one full semester of MIT graduate coursework
+                edX, Online · Equivalent to one full semester of MIT graduate coursework
               </p>
             </div>
 
